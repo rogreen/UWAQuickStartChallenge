@@ -1,0 +1,22 @@
+﻿<Application
+    x:Class="MyMapApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyMapApp"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="RadioButton">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <ContentPresenter Margin="15" />
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+    
+</Application>
